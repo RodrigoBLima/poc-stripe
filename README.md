@@ -25,7 +25,7 @@ Esta PoC visa integrar pagamentos com a [Stripe](https://stripe.com/). Certifiqu
 1. Crie uma conta na Stripe e obtenha suas chaves de API.
 2. Adicione suas credenciais no arquivo `.env.local`:
    ```env
-   STRIPE_PUBLIC_KEY=your_public_key
+   NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=your_public_key
    STRIPE_SECRET_KEY=your_secret_key
    ```
 
